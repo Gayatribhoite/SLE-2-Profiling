@@ -1,0 +1,138 @@
+# AI Contribution Log – SLE-3
+
+## 1. AI Tool Used
+
+**AI Tool:** ChatGPT
+
+AI was used as a supporting tool during the preparation of the SLE-3 architectural design for the 32-node Graph Search System.
+
+---
+
+## 2. Purpose of AI Usage
+
+AI was used to help understand and organize the existing BFS-1 and DFS-1 Graph Search System according to the C4 Model.
+
+The AI assistance focused on understanding the architecture, organizing the diagrams, and improving the documentation rather than replacing the student's implementation or decision-making.
+
+---
+
+## 3. Areas Where AI Helped
+
+### C4 Model Understanding
+
+AI helped in understanding the four C4 architectural levels:
+
+- C4 Level 1 – Context Diagram
+- C4 Level 2 – Container Diagram
+- C4 Level 3 – Component Diagram
+- C4 Level 4 – Code Level
+
+### System Architecture
+
+AI helped identify and organize the major parts of the existing Graph Search System:
+
+- User / Operator
+- Graph / Input
+- Search Controller
+- BFS-1
+- DFS-1
+- Visited Node Tracking
+- Goal Check
+- Result Output
+
+The architecture was based on the actual SLE-2 problem of searching from Start Node S to Goal Node AF on the 32-node graph.
+
+### Component Identification
+
+AI helped organize the internal components of the Search Controller / Search Engine:
+
+- BFS-1
+- DFS-1
+- Visited Set
+- Goal Test
+- Search Result
+
+### Code-Level Mapping
+
+AI helped organize the Level 4 code representation around the main search functions and data structures used in the project:
+
+- `graph`
+- `bfs_search()`
+- `dfs_search()`
+- `goal_test()`
+- `reconstruct_path()`
+- `main()`
+
+These were reviewed against the project implementation before being included in the architectural documentation.
+
+### Documentation
+
+AI helped with:
+
+- Organizing the SLE-3 report
+- Improving explanations of the C4 diagrams
+- Preparing the README file
+- Preparing this AI Contribution Log
+- Structuring the architectural documentation
+
+---
+
+## 4. Work Done by the Student
+
+The student was responsible for:
+
+- Selecting the existing Graph Search System from SLE-2.
+- Using the actual 32-node graph with Start Node S and Goal Node AF.
+- Understanding the existing BFS-1 and DFS-1 implementation.
+- Reviewing and selecting the architectural elements.
+- Creating and reviewing the C4 architecture.
+- Preparing the Context Diagram.
+- Preparing the Container Diagram.
+- Preparing the Component Diagram.
+- Preparing the Code Level representation.
+- Mapping the architecture to the actual project.
+- Making design decisions for the architecture.
+- Reviewing and verifying the diagrams.
+- Preparing the final SLE-3 documentation.
+- Organizing the GitHub repository.
+- Reviewing and submitting the final work.
+
+---
+
+## 5. AI Contribution vs Student Contribution
+
+| Activity | AI Contribution | Student Contribution |
+|---|---|---|
+| C4 Model | Explained the four C4 levels | Applied the model to the actual project |
+| System Context | Helped structure the context description | Reviewed and finalized the system context |
+| Containers | Helped identify and describe the containers | Verified the containers against the project |
+| Components | Helped organize the Search Engine components | Reviewed and finalized the component structure |
+| Code Mapping | Helped organize the code-level representation | Verified the functions and data structures |
+| Documentation | Helped organize and improve descriptions | Reviewed and finalized the report |
+| Diagrams | Assisted with diagram structure | Created/reviewed the final architecture diagrams |
+| GitHub README | Assisted with documentation structure | Prepared and organized the repository |
+| Final Submission | Provided documentation support | Reviewed and submitted the final work |
+
+---
+
+## 6. Student Responsibility
+
+The student remained responsible for the final architectural design and submission.
+
+The student reviewed the existing SLE-2 implementation, selected the appropriate architectural elements, verified the diagrams, and ensured that the C4 Model represented the actual 32-node BFS-1/DFS-1 system.
+
+---
+
+## 7. Declaration
+
+AI was used as a supporting tool for understanding, organizing, and documenting the SLE-3 architecture.
+
+The final architecture, diagrams, code-level mapping, and documentation were reviewed and finalized by the student based on the actual Graph Search System developed in SLE-2.
+
+---
+
+## 8. Conclusion
+
+AI assistance helped in understanding the C4 Model and organizing the Graph Search System into Context, Container, Component, and Code levels.
+
+The student remained responsible for applying the C4 Model to the actual 32-node BFS-1/DFS-1 project, verifying the architectural decisions, preparing the diagrams, and completing the final submission.

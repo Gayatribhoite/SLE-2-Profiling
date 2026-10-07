@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="eScccQ-_HyNAaeqiEZAr">
+    <mxGraphModel dx="1030" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-6" edge="1" parent="1" source="e3n4qW3aJdEvmQpwMQ5x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e3n4qW3aJdEvmQpwMQ5x-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SEARCH CONTROLLER&amp;nbsp; / SEARCH ENGINE" vertex="1">
+          <mxGeometry height="30" width="260" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-7" edge="1" parent="1" source="e3n4qW3aJdEvmQpwMQ5x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e3n4qW3aJdEvmQpwMQ5x-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BFS-1&lt;div&gt;Queue + Level Search&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-8" edge="1" parent="1" source="e3n4qW3aJdEvmQpwMQ5x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e3n4qW3aJdEvmQpwMQ5x-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DFS-1&lt;div&gt;Depth + Backtracking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-9" edge="1" parent="1" source="e3n4qW3aJdEvmQpwMQ5x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e3n4qW3aJdEvmQpwMQ5x-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VISITED SET&lt;div&gt;Avoid repeats&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-11" edge="1" parent="1" source="e3n4qW3aJdEvmQpwMQ5x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e3n4qW3aJdEvmQpwMQ5x-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;GOAL TEST&lt;/div&gt;&lt;div&gt;Current == AF?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e3n4qW3aJdEvmQpwMQ5x-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SEARCH RESULT&lt;div&gt;Path / Result&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

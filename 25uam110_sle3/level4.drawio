@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="AyRzT7HMYLjMu3Pfzd4x">
+    <mxGraphModel dx="1030" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-15" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;" value="" vertex="1">
+          <mxGeometry height="240" width="400" x="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-16" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-17" parent="e3i-6VVh22BoxjWM_fRh-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;Code Element&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-18" parent="e3i-6VVh22BoxjWM_fRh-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Purpose" vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-19" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-20" parent="e3i-6VVh22BoxjWM_fRh-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;bfs_search()&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-21" parent="e3i-6VVh22BoxjWM_fRh-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Performs Breadth-First Search using a queue and level-wise exploration.&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-22" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-23" parent="e3i-6VVh22BoxjWM_fRh-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="dfs_search()" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-24" parent="e3i-6VVh22BoxjWM_fRh-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Performs Depth-First Search using depth-first exploration and backtracking." vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-25" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-26" parent="e3i-6VVh22BoxjWM_fRh-25" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;visited_set&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-27" parent="e3i-6VVh22BoxjWM_fRh-25" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Tracks visited nodes and prevents repeated exploration." vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-28" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-29" parent="e3i-6VVh22BoxjWM_fRh-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;goal_test()&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-30" parent="e3i-6VVh22BoxjWM_fRh-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;Checks whether the current node is the goal node AF.&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-31" parent="e3i-6VVh22BoxjWM_fRh-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-32" parent="e3i-6VVh22BoxjWM_fRh-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;search_result&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="110" as="geometry">
+            <mxRectangle height="40" width="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-33" parent="e3i-6VVh22BoxjWM_fRh-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&#xa;Stores and returns the search result/path.&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="290" x="110" as="geometry">
+            <mxRectangle height="40" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3i-6VVh22BoxjWM_fRh-34" parent="1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="400" x="260" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
